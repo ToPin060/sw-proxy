@@ -1,0 +1,20 @@
+{
+  "name": "sw-proxy",
+  "version": "1.0.0",
+  "description": "sw-proxy",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-mitm-proxy": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25"
+  }
+}
